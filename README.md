@@ -11,7 +11,34 @@ FusionNet combines two Transformer-based branches — a spatial-domain branch (S
 (3) both branches frozen and fused via cross-attention and a final Transformer block.
 
 ## Requirements
+### Using conda (recommended):
 
+```bash
+conda env create -f environment.yml
+conda activate pd_env
+```
+### Using pip:
+
+```bash
+pip install -r requirements.txt
+```
+Core dependencies: PyTorch 2.10.0, torchvision 0.25.0, scikit-learn, opencv-python, einops, pandas, numpy, tqdm, Pillow, matplotlib
+```
+python >= 3.9
+torch
+einops
+opencv-python
+scikit-learn
+pandas
+numpy
+tqdm
+torchvision
+```
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Environment configuration
 
